@@ -242,12 +242,25 @@
   padding-bottom: 20px;
   margin: 0;
   text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
 }
 
 .kaufman-subtitle {
   width: 60%;
   margin: 0;
   text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  color: white;
+}
+
+.table_theme_dark {
+  z-index: 1;
+  row-gap: 0;
 }
 
 /*incluindo elementos com modificadores de valor-chave */
@@ -258,8 +271,14 @@
   margin-top: 80px;
 }
 
+.table__text_theme_dark {
+  padding-bottom: 0;
+}
+
 .kaufman__triangle {
-  z-index: -1;
+  width: 660px;
+  height: 636px;
+  z-index: 0;
   position: absolute;
   right: -124px;
 }
