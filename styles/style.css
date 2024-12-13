@@ -167,7 +167,7 @@
   width: 250px;
 }
 
-.table_heading {
+.table__heading {
   margin: 0;
   padding-bottom: 20px;
   line-height: 1.15;
@@ -175,7 +175,7 @@
   font-weight: bold;
 }
 
-.table_text {
+.table__text {
   margin: 0;
   padding-bottom: 20px;
   line-height: 1.2;
@@ -183,7 +183,7 @@
   font-weight: normal;
 }
 
-.table_cite {
+.table__cite {
   font-style: normal;
   margin-top: 20px;
   line-height: 1.2;
