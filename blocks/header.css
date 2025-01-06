@@ -69,4 +69,47 @@
   position: absolute;
   top: 64px;
   right: 0;
+  transform: rotate(-15deg);
+}
+
+.rotation {
+  -moz-animation-name: rotation;
+  -webkit-animation-name: rotation;
+  animation-name: rotation;
+  -moz-animation-duration: 20s;
+  -webkit-animation-duration: 20s;
+  animation-duration: 20s;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-moz-keyframes rotation {
+  from {
+    transform: rotate(-15deg);
+  }
+
+  to {
+    transform: rotate(345deg);
+  }
+}
+
+@-webkit-keyframes rotation {
+  from {
+    transform: rotate(-15deg);
+  }
+
+  to {
+    transform: rotate(345deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(-15deg);
+  }
+
+  to {
+    transform: rotate(345deg);
+  }
 }
