@@ -1,0 +1,82 @@
+.footer {
+  background-color: #1f1f1f;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__columns {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  width: 90%;
+  display: flex;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+}
+
+.footer__author {
+  margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+.footer__column_content_about {
+  margin-left: auto;
+}
+
+.footer__column-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-link_items {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer__column-link_items:hover {
+  opacity: 75%;
+}
+
+.footer__column_content_social {
+  margin-left: auto;
+}
+
+.footer__social-icons {
+  width: 16px;
+  height: 16px;
+}
