@@ -1,18 +1,16 @@
 .description {
   display: flex;
   justify-content: center;
+  margin-top: 100px;
 }
 
 .two-columns {
-  padding: 100px 0;
+  padding: 0;
+  margin: 0;
   width: 80%;
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-}
-
-.two-columns_no-margin {
-  margin: 0;
 }
 
 .two-columns__brief {
