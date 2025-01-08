@@ -28,6 +28,8 @@ Feito com roteiro com bastante instruções, mas não todas, para cada bloco. Co
   ![alt text](./images/README/position_3.png)
 
 - Google fonts
+  ![alt text](./images/README/google-fonts_1.png)
+  ![alt text](./images/README/google_fonts_2.png)
 
 - Pseudoclasse
   ![alt text](./images/README/pseudoclasse_hover.png)
@@ -41,6 +43,7 @@ Feito com roteiro com bastante instruções, mas não todas, para cada bloco. Co
   ![alt text](./images/README/rotation_3.png)
 
 - Formulário
+  ![alt text](./images/README/form.png)
 
 - BEM flat
   ![alt text](./images/README/bem-flat_1.png)
@@ -53,7 +56,5 @@ Feito com roteiro com bastante instruções, mas não todas, para cada bloco. Co
 
 # PLANOS PARA FINALIZAÇÃO DO PROJETO
 
-- Adicionar fontes diferentes.
 - Adicionar seus vídeos educativos favoritos.
 - Verificar o código para compatibilidade cruzada e adicionar todos os prefixos de fornecedores necessários.
-- Projetar um formulário que permite aos usuários enviar um comentário.
