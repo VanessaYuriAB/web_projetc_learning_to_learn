@@ -381,7 +381,71 @@
             </a>
           </div>
         </section>
+        <section class="form-section">
+          <form class="form">
+            <div class="form__div-column">
+              <h6 class="form__title">Quer nos enviar algum comentário?</h6>
+              <fieldset class="form__fieldset form__fieldset_texts">
+                <label class="form__label" for="name">
+                  Nome*
+                  <input
+                    class="form__input"
+                    id="name"
+                    type="text"
+                    name="name"
+                    placeholder="Nos diga seu nome e sobrenome aqui."
+                    required
+                  />
+                </label>
+                <label class="form__label" for="email">
+                  E-mail*
+                  <input
+                    class="form__input"
+                    id="email"
+                    type="email"
+                    name="email"
+                    placeholder="E também o seu e-mail."
+                    required
+                  />
+                </label>
+                <label class="form__label" for="comment">
+                  Comentário*
+                  <textarea
+                    class="form__textarea"
+                    id="comment"
+                    name="comment"
+                    placeholder="Aqui você nos escreve o comentário que desejar."
+                    required
+                  ></textarea>
+                </label>
+              </fieldset>
+              <fieldset class="form__fieldset form__fieldset_checkbox">
+                <label
+                  class="form__label form__label_direction_right"
+                  for="news"
+                >
+                  <input
+                    class="form__input form__input_checkbox-invisible"
+                    id="news"
+                    name="news"
+                    value="subscribe"
+                    type="checkbox"
+                    required
+                  />
+                  <span class="form__input_checkbox-visible"></span>
+                  <span class="form__label_text"
+                    >Quero receber e-mails sobre o assunto da página!*</span
+                  >
+                </label>
+              </fieldset>
+            </div>
+            <button class="form__button" type="submit">
+              E<br />N<br />V<br />I<br />A<br />R
+            </button>
+          </form>
+        </section>
       </main>
+
       <footer class="footer">
         <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">

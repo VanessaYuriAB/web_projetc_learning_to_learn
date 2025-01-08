@@ -1,0 +1,111 @@
+.form-section {
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #535151;
+}
+
+.form {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.form__div-column {
+  width: 90%;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form__fieldset_texts {
+}
+
+.form__fieldset_checkbox {
+  margin-top: 10px;
+}
+
+.form__title {
+  line-height: 30px;
+  font-size: 18px;
+  margin: 0;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.form__label_direction_right {
+  display: inline;
+}
+
+.form__label_text {
+  vertical-align: sub;
+}
+
+.form__input {
+  border: none;
+  border-radius: 1%;
+  height: 30px;
+}
+
+.form__input_checkbox-invisible {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.form__input_checkbox-visible {
+  display: inline-block;
+  vertical-align: middle;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #fff;
+  background-color: #535151;
+}
+
+.form__input_checkbox-invisible:disabled + .form__input_checkbox-visible {
+  border: 1px solid gray;
+}
+
+.form__input_checkbox-invisible:focus + .form__input_checkbox-visible {
+  box-shadow: 0 0 5px#fff6c5;
+}
+
+.form__input_checkbox-invisible:checked + .form__input_checkbox-visible {
+  background-image: url(https://practicum-content.s3.us-west-1.amazonaws.com/web-code/moved_tick.svg);
+}
+
+.form__input_checkbox-invisible:disabled:checked
+  + .form__input_checkbox-visible {
+  background-image: url(https://practicum-content.s3.us-west-1.amazonaws.com/web-code/moved_tick_gray.svg);
+}
+
+.form__textarea {
+}
+
+.form__button {
+  background-color: #535151;
+  color: #fff;
+  border: none;
+  border-radius: 2%;
+  width: 5%;
+}
+
+.form__button:hover {
+  opacity: 80%;
+}
