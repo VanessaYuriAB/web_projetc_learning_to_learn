@@ -56,5 +56,5 @@ Feito com roteiro com bastante instruções, mas não todas, para cada bloco. Co
 
 # PLANOS PARA FINALIZAÇÃO DO PROJETO
 
-- Adicionar seus vídeos educativos favoritos.
+- Adicionar meus vídeos educativos favoritos.
 - Verificar o código para compatibilidade cruzada e adicionar todos os prefixos de fornecedores necessários.

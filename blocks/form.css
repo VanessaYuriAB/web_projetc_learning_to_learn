@@ -28,17 +28,15 @@
   margin: 0;
 }
 
-.form__fieldset_texts {
-}
-
 .form__fieldset_checkbox {
   margin-top: 10px;
 }
 
 .form__title {
   line-height: 30px;
-  font-size: 18px;
+  font-size: 20px;
   margin: 0;
+  font-weight: 500;
 }
 
 .form__label {
@@ -62,6 +60,9 @@
 }
 
 .form__input_checkbox-invisible {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   position: absolute;
   width: 1px;
   height: 1px;
@@ -74,8 +75,13 @@
   vertical-align: middle;
   width: 18px;
   height: 18px;
+  border-radius: 8%;
   border: 1px solid #fff;
   background-color: #535151;
+}
+
+.form__input_checkbox-invisible:hover + .form__input_checkbox-visible {
+  opacity: 80%;
 }
 
 .form__input_checkbox-invisible:disabled + .form__input_checkbox-visible {
@@ -95,17 +101,20 @@
   background-image: url(https://practicum-content.s3.us-west-1.amazonaws.com/web-code/moved_tick_gray.svg);
 }
 
-.form__textarea {
-}
-
 .form__button {
   background-color: #535151;
   color: #fff;
   border: none;
   border-radius: 2%;
   width: 5%;
+  border: 1px solid #fff;
+}
+
+.form__button:focus {
+  box-shadow: 0 0 5px #fff6c5;
 }
 
 .form__button:hover {
   opacity: 80%;
+  box-shadow: 0 0 5px #fff6c5;
 }
